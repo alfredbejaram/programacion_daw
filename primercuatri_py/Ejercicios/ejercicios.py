@@ -10,3 +10,18 @@ def function(n):
             print("impar")
 
 function(10)
+
+
+# Imprime por pantalla lo que indica en cada print si el usuario ingresa ciertos números
+def fizzBuzz(n):
+    if n == 15:
+        print("fizzBuzz")
+    elif n in [3, 6, 9, 12]:  # Si n = 3,6,9,12 ¿?
+        print("Fizz")
+    elif n == 5 or n == 10:
+        print("Buzz")
+    else:
+        print(n)
+
+
+fizzBuzz(15)
