@@ -1,7 +1,6 @@
 CREATE DATABASE actuaciondb;
 USE actuaciondb;
 
-DROP TABLE IF EXISTS series;
 
 /* Tabla Actores */
 DROP TABLE IF EXISTS actores;
